@@ -1,0 +1,71 @@
+<html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lista de Produtos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  </style>
+</head>
+<body class="min-h-screen bg-orange-50 flex items-center justify-center p-6">
+  <div class="w-full max-w-3xl bg-white rounded-lg shadow-lg overflow-hidden px-6 py-8 pb-12 mb-8">
+    <header class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-8">
+      <div class="flex-1">
+        <h1 class="text-2xl md:text-3xl font-semibold text-orange-900 mb-1">Salão Deus É Fiel</h1>
+        <p class="text-sm md:text-base text-orange-600">De frente ao Antigo Bar do Paulista, Charnequinha.</p>
+      </div>
+
+      <aside class="w-full md:w-44 mt-3 md:mt-0 bg-orange-600 rounded-md px-3 py-2">
+        <p class="text-xs text-orange-100">Admnistrador</p>
+        <p class="text-sm font-medium text-white">Rivaldo Nacre</p>
+      </aside>
+    </header>
+
+    <main class="mb-8">
+      <div class="overflow-x-auto">
+        <table class="w-full table-auto border-collapse">
+          <thead>
+            <tr class="bg-orange-700">
+              <th class="text-left text-sm font-medium text-white px-4 py-3">Produto</th>
+              <th class="text-right text-sm font-medium text-white px-4 py-3">Valor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b bg-orange-600">
+              <td class="px-4 py-3 text-white">Infantil</td>
+              <td class="px-4 py-3 text-right text-white">R$ 20,00</td>
+            </tr>
+            <tr class="border-b bg-orange-500">
+              <td class="px-4 py-3 text-white">Cabelo Adulto</td>
+              <td class="px-4 py-3 text-right text-white">R$ 20,00</td>
+            </tr>
+            <tr class="border-b bg-orange-600">
+              <td class="px-4 py-3 text-white">Barba</td>
+              <td class="px-4 py-3 text-right text-white">R$ 15,00</td>
+            </tr>
+            <tr class="bg-orange-500">
+              <td class="px-4 py-3 text-white">Sobrancelha</td>
+              <td class="px-4 py-3 text-right text-white">R$ 10,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <div class="mt-6">
+      <div class="w-full h-56 md:h-72 bg-orange-100 rounded-md overflow-hidden border border-orange-200">
+        <iframe
+          src="about:blank"
+          title="Conteúdo incorporado"
+          class="w-afull h-full border-0"
+        ></iframe>
+      </div>
+
+      <div class="pt-6 pb-12"></div>
+    </div>
+  </div>
+</body>
+</html>
